@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image of space for the entire page */
+body {
+    background: url('https://cdn.discordapp.com/attachments/1115773026471006312/1162132078591221892/y0YeWG.gif?ex=653ad2d6&is=65285dd6&hm=f7eaba0f069699690e98124785dc2523f2932f8645927f43fe570f19d6f6dcc7&') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Style the header */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content sections */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add a hover effect to navigation links */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Customize additional styles as needed for your specific content and design. */
+
